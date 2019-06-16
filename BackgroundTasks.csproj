@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>028deae6-ad2d-43eb-81b1-ec6f32da7633</UserSecretsId>
+    <NoWarn>NU1605</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="5.5.1" />
+    <PackageReference Include="MassTransit.AmazonSQS" Version="5.5.1" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0-preview5.19227.9" />
+  </ItemGroup>
+
+</Project>
